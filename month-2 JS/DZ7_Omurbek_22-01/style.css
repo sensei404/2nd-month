@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.traffic {
+    background-color: black;
+    width: 180px;
+    height: 360px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
